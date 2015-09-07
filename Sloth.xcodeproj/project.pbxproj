@@ -52,7 +52,7 @@
 		663CC5011B800CE900B39786 = {
 			isa = PBXGroup;
 			children = (
-				663CC50C1B800CE900B39786 /* DSurprise */,
+				663CC50C1B800CE900B39786 /* Sloth */,
 				663CC5241B800FAD00B39786 /* Frameworks */,
 				663CC50B1B800CE900B39786 /* Products */,
 			);
@@ -66,7 +66,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		663CC50C1B800CE900B39786 /* DSurprise */ = {
+		663CC50C1B800CE900B39786 /* Sloth */ = {
 			isa = PBXGroup;
 			children = (
 				663CC50D1B800CE900B39786 /* AppDelegate.swift */,
@@ -76,6 +76,7 @@
 				663CC5161B800CE900B39786 /* LaunchScreen.storyboard */,
 				663CC5191B800CE900B39786 /* Info.plist */,
 			);
+			name = Sloth;
 			path = DSurprise;
 			sourceTree = "<group>";
 		};
@@ -123,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 663CC5051B800CE900B39786 /* Build configuration list for PBXProject "DSurprise" */;
+			buildConfigurationList = 663CC5051B800CE900B39786 /* Build configuration list for PBXProject "Sloth" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -302,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		663CC5051B800CE900B39786 /* Build configuration list for PBXProject "DSurprise" */ = {
+		663CC5051B800CE900B39786 /* Build configuration list for PBXProject "Sloth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				663CC51A1B800CE900B39786 /* Debug */,
@@ -318,6 +319,7 @@
 				663CC51E1B800CE900B39786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
