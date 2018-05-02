@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.view.backgroundColor = UIColor.blackColor()
+        self.view.backgroundColor = UIColor.black
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,16 +23,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func share(sender: AnyObject) {
-        
-        let image = UIImage(imageLiteral: "sloth")!
-        
-        let objectsToShare = [image]
+    @IBAction func share(sender: Any) {
+        let objectsToShare = [#imageLiteral(resourceName: "sloth")]
         let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
 
-        activityVC.popoverPresentationController?.sourceView = sender as! UIView
+        activityVC.popoverPresentationController?.sourceView = sender as? UIView
         
-        self.presentViewController(activityVC, animated: true, completion: nil)
+        self.present(activityVC, animated: true, completion: nil)
         
     }
 
